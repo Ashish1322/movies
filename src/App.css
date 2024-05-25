@@ -1,0 +1,21 @@
+.card img {
+  width: 200px;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  width: 210px;
+  text-align: center;
+  padding: 10px;
+}
+.card p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
