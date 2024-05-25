@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div>
+      <h1>This is the New Code</h1>
         <ABCDEF text="Hello" />
         <BlueButton text="hello" />
       <input onChange={(e) => setQuery(e.currentTarget.value)} type="text" placeholder="Enter Movie Name" />
